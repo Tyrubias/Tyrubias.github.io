@@ -1,0 +1,6 @@
+#aboutme {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+    width: 75%;
+}

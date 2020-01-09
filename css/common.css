@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: black;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans';
+    font-size: 5vh;
+    color: white;
+}
+
+p {
+    font-family: 'IBM Plex Sans';
+    font-size: 3vh;
+    color: white;
+}
+
+#fancyname {
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+    font-size: 10vh;
+}
+
+#fancyname a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu {
+    margin: auto;
+    width: 65%;
+    font-family: 'IBM Plex Sans';
+    text-align: center;
+    font-size: 3vh;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    overflow: hidden;
+    border-radius: 1vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #333;
+}
+
+#menu ul li {
+    float: left;
+}
+
+#menu ul li a {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: cornflowerblue;
+    border-radius: 0.5vw;
+}
