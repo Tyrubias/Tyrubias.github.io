@@ -35,9 +35,14 @@ p {
     font-family: 'IBM Plex Sans';
     font-size: 3vh;
     color: white;
+    font-weight: 100;
 }
 
 p a {
+    color: #B4F8C8;
+}
+
+span a {
     color: #B4F8C8;
 }
 

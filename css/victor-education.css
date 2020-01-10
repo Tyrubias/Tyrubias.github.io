@@ -8,6 +8,19 @@
 .timeatrice {
     font-family: 'IBM Plex Sans';
     font-size: 3vh;
+    font-weight: 100;
     color: white;
-    margin: 0;
+}
+
+.timeatrice ul {
+    font-family: 'IBM Plex Sans';
+    font-size: 3vh;
+    font-weight: 100;
+    color: white;
+    list-style: none;
+}
+
+.timeatrice li:before {
+    content: "-";
+    padding-right: 0.25vw;
 }
