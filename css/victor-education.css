@@ -4,3 +4,10 @@
     margin: auto;
     width: 75%;
 }
+
+.timeatrice {
+    font-family: 'IBM Plex Sans';
+    font-size: 3vh;
+    color: white;
+    margin: 0;
+}
