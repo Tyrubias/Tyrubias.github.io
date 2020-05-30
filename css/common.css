@@ -19,35 +19,35 @@ body {
 }
 
 h1 {
-    font-family: 'IBM Plex Sans';
+    font-family: "IBM Plex Sans";
     font-size: 5vh;
     color: white;
     text-decoration: underline;
 }
 
 h2 {
-    font-family: 'IBM Plex Sans';
+    font-family: "IBM Plex Sans";
     font-size: 4vh;
     color: white;
 }
 
 p {
-    font-family: 'IBM Plex Sans';
+    font-family: "IBM Plex Sans";
     font-size: 3vh;
     color: white;
     font-weight: 100;
 }
 
 p a {
-    color: #B4F8C8;
+    color: #b4f8c8;
 }
 
 span a {
-    color: #B4F8C8;
+    color: #b4f8c8;
 }
 
 #fancyname {
-    font-family: 'IBM Plex Sans';
+    font-family: "IBM Plex Sans";
     text-align: center;
     font-size: 10vh;
 }
@@ -60,7 +60,7 @@ span a {
 #menu {
     margin: auto;
     width: 65%;
-    font-family: 'IBM Plex Sans';
+    font-family: "IBM Plex Sans";
     text-align: center;
     font-size: 3vh;
 }
@@ -71,9 +71,9 @@ span a {
     #menu ul {
         background-color: #333;
         display: flex;
-        flex-flow:  column nowrap;
+        flex-flow: column nowrap;
     }
-  }
+}
 #menu ul {
     display: flex;
     justify-content: space-around;
