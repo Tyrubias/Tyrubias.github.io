@@ -1,0 +1,15 @@
+{
+  "name": "victor-personal-website",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^0.4.4"
+  }
+}
