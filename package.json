@@ -2,7 +2,8 @@
   "name": "victor-personal-website",
   "version": "1.0.0",
   "scripts": {
-    "start": "sirv public"
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
