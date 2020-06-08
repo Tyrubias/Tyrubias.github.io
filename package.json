@@ -1,16 +1,28 @@
 {
-  "name": "victor-personal-website",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "parcel build src/index.html",
-    "start": "parcel src/index.html"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6",
-    "svelte": "^3.0.0"
-  },
-  "dependencies": {
-    "sirv-cli": "^0.4.4"
-  }
+    "name": "victor-personal-website",
+    "version": "1.0.0",
+    "description": "Victor Song's personal website",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Tyrubias/Tyrubias.github.io/"
+    },
+    "license": "MIT",
+    "scripts": {
+        "build": "rm -rf dist/ && parcel build src/index.html --no-source-maps --experimental-scope-hoisting && cp public/.nojekyll dist/",
+        "start": "rm -rf .cache/ && parcel src/index.html",
+        "format": "npx prettier --write \"{,!(node_modules|public|dist|.cache)/**/}*.{js,svelte,html,css,scss,json}\""
+    },
+    "devDependencies": {
+        "@babel/polyfill": "^7.10.1",
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-svelte": "^4.0.6",
+        "prettier": "^2.0.5",
+        "prettier-plugin-svelte": "^1.1.0",
+        "sass": "^1.26.8",
+        "svelte": "^3.0.0",
+        "svelte-loadable": "^1.5.0"
+    },
+    "dependencies": {
+        "svelte-routing": "^1.4.2"
+    }
 }
