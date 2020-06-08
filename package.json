@@ -8,9 +8,9 @@
     },
     "license": "MIT",
     "scripts": {
-        "build": "parcel build src/index.html --no-source-maps --experimental-scope-hoisting -d ./",
+        "build": "rm -rf build/ && parcel build src/index.html --no-source-maps --experimental-scope-hoisting -d build/ && ln -sv build/index index.html",
         "start": "rm -rf .cache/ && parcel src/index.html",
-        "format": "npx prettier --write \"{,!(node_modules|public|dist|.cache|docs)/**/}*.{js,svelte,html,css,scss,json}\""
+        "format": "npx prettier --write \"src/**/*.{js,svelte,html,css,scss,json}\""
     },
     "devDependencies": {
         "@babel/polyfill": "^7.10.1",
