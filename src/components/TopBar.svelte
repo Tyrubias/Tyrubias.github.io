@@ -3,7 +3,7 @@
 </script>
 
 <style>
-    #fancyname {
+    #name {
         font-family: "IBM Plex Sans";
         text-align: center;
         font-size: 10vh;
@@ -41,7 +41,7 @@
     }
 </style>
 
-<div id="fancyname">
+<div id="name">
     <Link to="/">Victor Song</Link>
 </div>
 

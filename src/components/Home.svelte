@@ -6,7 +6,7 @@
 </script>
 
 <style>
-    #aboutme {
+    div {
         display: flex;
         flex-flow: column nowrap;
         margin: auto;
@@ -24,7 +24,7 @@
 
 <TopBar />
 
-<div id="aboutme">
+<div>
     <h1>About Me</h1>
 
     <picture>
