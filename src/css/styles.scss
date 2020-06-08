@@ -46,59 +46,20 @@ span a {
     color: #b4f8c8;
 }
 
-#fancyname {
-    font-family: "IBM Plex Sans";
-    text-align: center;
-    font-size: 10vh;
-}
-
-#fancyname a {
-    color: white;
-    text-decoration: none;
-}
-
-#menu {
-    margin: auto;
-    width: 65%;
-    font-family: "IBM Plex Sans";
-    text-align: center;
-    font-size: 3vh;
-}
 @media only screen and (max-width: 600px) {
     body {
         background-color: black;
     }
-    #menu ul {
-        background-color: #333;
-        display: flex;
-        flex-flow: column nowrap;
-    }
-}
-#menu ul {
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
-    overflow: hidden;
-    border-radius: 1vw;
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    background-color: #333;
 }
 
-#menu ul li {
-    float: left;
-}
-
-#menu ul li a {
-    padding-left: 0.5vw;
-    padding-right: 0.5vw;
-    padding-top: 0.5vh;
-    padding-bottom: 0.5vh;
-    text-align: center;
-    text-decoration: none;
+div > a {
     color: white;
+    text-decoration: none;
+}
+
+li > a {
+    color: white;
+    text-decoration: none;
 }
 
 a:hover {
