@@ -1,5 +1,6 @@
 <script>
     import TopBar from "../components/TopBar"
+    import Gutter from "../components/Gutter"
 </script>
 
 <style>
@@ -43,3 +44,5 @@
         </a>
     </span>
 </div>
+
+<Gutter />

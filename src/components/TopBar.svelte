@@ -61,6 +61,9 @@
 <div id="menu">
     <ul>
         <li>
+            <a href="#/about" use:active>About Me</a>
+        </li>
+        <li>
             <a href="#/experience" use:active>Experience</a>
         </li>
         <li>
@@ -68,9 +71,6 @@
         </li>
         <li>
             <a href="#/education" use:active>Education</a>
-        </li>
-        <li>
-            <a href="#/contact" use:active>Contact</a>
         </li>
     </ul>
 </div>

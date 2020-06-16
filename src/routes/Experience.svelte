@@ -1,5 +1,6 @@
 <script>
     import TopBar from "../components/TopBar"
+    import Gutter from "../components/Gutter"
 </script>
 
 <style>
@@ -61,3 +62,5 @@
         to produce low temperature RNA thermometers.
     </p>
 </div>
+
+<Gutter />
