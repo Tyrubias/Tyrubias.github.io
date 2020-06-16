@@ -20,10 +20,9 @@
         "prettier": "^2.0.5",
         "prettier-plugin-svelte": "^1.1.0",
         "sass": "^1.26.8",
-        "svelte": "^3.23.2",
-        "svelte-loadable": "^1.5.0"
+        "svelte": "^3.23.2"
     },
     "dependencies": {
-        "svelte-routing": "^1.4.2"
+        "svelte-spa-router": "^2.2.0"
     }
 }

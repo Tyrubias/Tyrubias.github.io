@@ -1,18 +1,15 @@
 <script>
-    import { onMount } from "svelte"
-    import { Link } from "svelte-routing"
-
-    onMount(() => {
-        var tag = document.querySelector(
-            `a[href='${window.location.pathname}']`,
-        )
-        tag.style.backgroundColor = "cornflowerblue"
-        tag.style.borderRadius = "0.5vw"
-        tag.style.textDecoration = "underline"
-    })
+    import { link } from "svelte-spa-router"
+    import active from "svelte-spa-router/active"
 </script>
 
 <style>
+    :global(a.active) {
+        background-color: cornflowerblue;
+        border-radius: 0.6vw;
+        text-decoration: underline;
+    }
+
     #name {
         font-family: "Lato";
         text-align: center;
@@ -58,22 +55,22 @@
 </style>
 
 <div id="name">
-    <Link to="/">Victor Song</Link>
+    <a href="/" use:active>Victor Song</a>
 </div>
 
 <div id="menu">
     <ul>
         <li>
-            <Link to="/experience">Experience</Link>
+            <a href="/experience" use:link use:active>Experience</a>
         </li>
         <li>
-            <Link to="/projects">Projects</Link>
+            <a href="/projects" use:link use:active>Projects</a>
         </li>
         <li>
-            <Link to="/education">Education</Link>
+            <a href="/education" use:link use:active>Education</a>
         </li>
         <li>
-            <Link to="/contact">Contact</Link>
+            <a href="/contact" use:link use:active>Contact</a>
         </li>
     </ul>
 </div>
