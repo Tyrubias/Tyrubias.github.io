@@ -61,16 +61,16 @@
 <div id="menu">
     <ul>
         <li>
-            <a href="/experience" use:link use:active>Experience</a>
+            <a href="#/experience" use:active>Experience</a>
         </li>
         <li>
-            <a href="/projects" use:link use:active>Projects</a>
+            <a href="#/projects" use:active>Projects</a>
         </li>
         <li>
-            <a href="/education" use:link use:active>Education</a>
+            <a href="#/education" use:active>Education</a>
         </li>
         <li>
-            <a href="/contact" use:link use:active>Contact</a>
+            <a href="#/contact" use:active>Contact</a>
         </li>
     </ul>
 </div>
