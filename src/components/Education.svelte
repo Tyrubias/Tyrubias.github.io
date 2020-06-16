@@ -11,18 +11,20 @@
     }
 
     span {
-        font-family: "IBM Plex Sans";
+        font-family: "Lato";
         font-size: 3vh;
-        font-weight: 100;
+        font-weight: 300;
         color: white;
+        margin: 0 5vw 0 5vw;
     }
 
     span ul {
-        font-family: "IBM Plex Sans";
+        font-family: "Lato";
         font-size: 3vh;
-        font-weight: 100;
+        font-weight: 300;
         color: white;
         list-style: none;
+        margin: 0 5vw 0 5vw;
     }
 
     span li:before {
@@ -34,8 +36,6 @@
 <TopBar />
 
 <div>
-    <h1>Education</h1>
-
     <h2>Rice University</h2>
 
     <span>

@@ -11,18 +11,17 @@
     }
 
     span {
-        font-family: "IBM Plex Sans";
+        font-family: "Lato";
         font-size: 3vh;
-        font-weight: 100;
+        font-weight: 300;
         color: white;
+        margin: 0 5vw 0 5vw;
     }
 </style>
 
 <TopBar />
 
 <div>
-    <h1>Projects</h1>
-
     <h2>Minimap Website</h2>
 
     <span>

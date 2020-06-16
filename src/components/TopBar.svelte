@@ -1,26 +1,42 @@
 <script>
+    import { onMount } from "svelte"
     import { Link } from "svelte-routing"
+
+    onMount(() => {
+        var tag = document.querySelector(
+            `a[href='${window.location.pathname}']`,
+        )
+        tag.style.backgroundColor = "cornflowerblue"
+        tag.style.borderRadius = "0.5vw"
+        tag.style.textDecoration = "underline"
+    })
 </script>
 
 <style>
     #name {
-        font-family: "IBM Plex Sans";
+        font-family: "Lato";
         text-align: center;
         font-size: 10vh;
     }
 
     #menu {
         margin: auto;
-        width: 65%;
-        font-family: "IBM Plex Sans";
+        width: 70%;
+        font-family: "Lato";
+        font-weight: 400;
         text-align: center;
-        font-size: 3vh;
+        font-size: 4.5vh;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 800px) {
         #menu ul {
             background-color: #333;
             display: flex;
             flex-flow: column nowrap;
+            border-radius: 3vw;
+        }
+
+        ul li {
+            margin-bottom: 2vw;
         }
     }
     ul {

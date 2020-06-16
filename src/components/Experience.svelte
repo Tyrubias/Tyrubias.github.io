@@ -14,8 +14,6 @@
 <TopBar />
 
 <div>
-    <h1>Experience</h1>
-
     <h2>Minimap</h2>
 
     <p>

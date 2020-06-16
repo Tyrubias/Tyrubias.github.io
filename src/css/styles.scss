@@ -19,23 +19,28 @@ body {
 }
 
 h1 {
-    font-family: "IBM Plex Sans";
+    font-family: "Lato";
+    font-weight: 700;
     font-size: 5vh;
     color: white;
     text-decoration: underline;
+    margin: 5vh 5vw 5vh 5vw;
 }
 
 h2 {
-    font-family: "IBM Plex Sans";
+    font-family: "Lato";
     font-size: 4vh;
+    font-weight: 700;
     color: white;
+    margin: 3vh 5vw 3vh 5vw;
 }
 
 p {
-    font-family: "IBM Plex Sans";
+    font-family: "Lato";
     font-size: 3vh;
     color: white;
-    font-weight: 100;
+    font-weight: 300;
+    margin: auto 5vw auto 5vw;
 }
 
 p a {
@@ -65,4 +70,8 @@ li > a {
 a:hover {
     background-color: cornflowerblue;
     border-radius: 0.5vw;
+}
+
+@media only screen and (max-width: 800px) {
+    
 }

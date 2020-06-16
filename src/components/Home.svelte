@@ -14,23 +14,22 @@
     }
 
     source {
-        width: 10vw;
+        width: 20vw;
     }
 
     img {
-        width: 10vw;
+        width: 20vw;
+        margin: 6vh 5vw 6vh 5vw;
     }
 </style>
 
 <TopBar />
 
 <div>
-    <h1>About Me</h1>
-
     <picture>
         <source srcset={profileWebp} style="width: 10vw" type="image/webp" />
         <source srcset={profileJpg} style="width: 10vw" type="image/jpeg" />
-        <img src={profileJpg} style="width: 10vw" alt="Profile" />
+        <img src={profileJpg} style="width: 15vw" alt="Profile" />
     </picture>
 
     <p>
