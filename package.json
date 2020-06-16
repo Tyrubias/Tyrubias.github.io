@@ -8,10 +8,10 @@
     },
     "license": "MIT",
     "scripts": {
-        "build": "rm -f *.js *.css *.html *.webp *.jpg && parcel build src/index.html --no-source-maps --experimental-scope-hoisting -d ./",
-        "start": "rm -rf .cache/ && parcel src/index.html",
+        "build": "parcel build src/index.html --no-source-maps --experimental-scope-hoisting --public-url ./build -d ./build && ln -sv build/index.html index.html",
+        "start": "parcel -d ./build src/index.html",
         "format": "npx prettier --write \"src/**/*.{js,svelte,html,css,scss,json}\"",
-        "clean": "rm -f *.js *.css *.html *.webp *.jpg && rm -rf .cache/"
+        "clean": "rm -f *.js *.css *.html *.webp *.jpg && rm -rf .cache/ && rm -rf dist/"
     },
     "devDependencies": {
         "@babel/polyfill": "^7.10.1",
@@ -20,7 +20,7 @@
         "prettier": "^2.0.5",
         "prettier-plugin-svelte": "^1.1.0",
         "sass": "^1.26.8",
-        "svelte": "^3.0.0",
+        "svelte": "^3.23.2",
         "svelte-loadable": "^1.5.0"
     },
     "dependencies": {
