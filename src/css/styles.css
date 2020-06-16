@@ -1,4 +1,4 @@
-@keyframes fadeInLeft {
+/* @keyframes fadeInLeft {
     0% {
         opacity: 0;
         transform: translateX(-20px);
@@ -8,14 +8,14 @@
         opacity: 1;
         transform: translateX(0);
     }
-}
+} */
 
 body {
     display: flex;
     flex-flow: column nowrap;
     background-color: black;
-    animation: fadeInLeft 2s ease-out 0s 1 normal forwards running;
-    opacity: 0;
+    /* animation: fadeInLeft 0.5s ease-out 0s 1 normal forwards running; */
+    /* opacity: 0; */
 }
 
 h1 {
