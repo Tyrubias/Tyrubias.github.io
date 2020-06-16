@@ -10,7 +10,8 @@
     "scripts": {
         "build": "rm -f *.js *.css *.html *.webp *.jpg && parcel build src/index.html --no-source-maps --experimental-scope-hoisting -d ./",
         "start": "rm -rf .cache/ && parcel src/index.html",
-        "format": "npx prettier --write \"src/**/*.{js,svelte,html,css,scss,json}\""
+        "format": "npx prettier --write \"src/**/*.{js,svelte,html,css,scss,json}\"",
+        "clean": "rm -f *.js *.css *.html *.webp *.jpg && rm -rf .cache/"
     },
     "devDependencies": {
         "@babel/polyfill": "^7.10.1",
