@@ -1,8 +1,8 @@
 <script>
-    let profileWebp = require("../images/VictorSong.webp")
-    let profileJpg = require("../images/VictorSong.jpg")
+    import profileWebp from "../images/VictorSong.webp"
+    import profileJpg from "../images/VictorSong.jpg"
 
-    import TopBar from "./TopBar.svelte"
+    import TopBar from "../components/TopBar"
 </script>
 
 <style>

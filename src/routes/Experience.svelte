@@ -1,5 +1,5 @@
 <script>
-    import TopBar from "./TopBar"
+    import TopBar from "../components/TopBar"
 </script>
 
 <style>

@@ -1,5 +1,4 @@
-import "@babel/polyfill"
-import App from "./components/App.svelte"
+import App from "./App.svelte"
 
 const app = new App({
     target: document.getElementById("root"),
