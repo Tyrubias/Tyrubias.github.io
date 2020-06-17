@@ -16,7 +16,7 @@
         font-size: 3vh;
         font-weight: 300;
         color: white;
-        margin: 0 5vw 0 5vw;
+        margin: 0 4vw 0 6vw;
     }
 </style>
 

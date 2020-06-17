@@ -20,7 +20,9 @@
 
     img {
         width: 20vw;
-        margin: 6vh 5vw 6vh 5vw;
+        margin: 6vh auto 6vh auto;
+        border-radius: 1.3vw;
+        display: block;
     }
 </style>
 
@@ -30,7 +32,7 @@
     <picture>
         <source srcset={profile_webp} type="image/webp" />
         <source srcset={profile_png} type="image/png" />
-        <img src={profile_png} style="width: 15vw" alt="Profile" />
+        <img src={profile_png} alt="Profile" />
     </picture>
 
     <p>
