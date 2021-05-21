@@ -33,7 +33,7 @@ function AboutMe (): JSX.Element {
           </a>
           . You can hear more about my work as the summer progresses.
         </p>
-        <p>
+        <p className='my-3 text-lg font-light subpixel-antialiased'>
           In the summer of 2020, I worked as a research intern in the{' '}
           <a
             className='underline'
