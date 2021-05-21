@@ -2,10 +2,10 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import AboutMe from './AboutMe'
 
-function App() {
+function App (): JSX.Element {
   return (
     <Routes>
-      <Route path="/">
+      <Route path='/'>
         <AboutMe />
       </Route>
     </Routes>
