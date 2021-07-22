@@ -14,7 +14,7 @@ $(BUILD_DIR): $(DEPS) $(SOURCE)
 	echo $(DOMAIN)  >> $(BUILD_DIR)/CNAME
 
 check: $(LOCAL_BIN) 
-	$(LOCAL_BIN)/tsc
+	$(LOCAL_BIN)/tsc --noEmit
 
 deps: $(DEPS) 
 
