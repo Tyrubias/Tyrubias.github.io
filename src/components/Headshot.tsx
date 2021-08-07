@@ -14,7 +14,7 @@ function Headshot ({
     <picture>
       <source srcSet={webpImgUrl} type='image/webp' />
       <source srcSet={jpgImgUrl} type='image/jpeg' />
-      <img className='rounded-full ml-2' src={jpgImgUrl} alt={altText} />
+      <img className='rounded-full md:ml-2' src={jpgImgUrl} alt={altText} />
     </picture>
   )
 }

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Sidebar ({
   links
 }: {
-  links: { path: string; name: string }[]
+  links: Array<{ path: string, name: string }>
 }): JSX.Element {
   return (
     <div className='md:h-2/4 flex flex-col place-content-evenly'>

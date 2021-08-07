@@ -3,16 +3,16 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'sans': ['Recursive'],
+      sans: ['Recursive']
     },
     extend: {
       gridTemplateColumns: {
-        'page': '1fr 1.75fr 1fr'
+        page: '1fr 1.75fr 1fr'
       }
-    },
+    }
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }

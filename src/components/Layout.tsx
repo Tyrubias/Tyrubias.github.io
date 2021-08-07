@@ -11,7 +11,7 @@ function Layout ({
   return (
     <div className='md:grid grid-cols-page gap-x-8 grid-rows-none items-center justify-between h-screen'>
       {left}
-      <div>{center}</div>
+      <div className='px-12 md:p-1'>{center}</div>
       {window.innerWidth > 768 && (
         <Sidebar
           links={[
