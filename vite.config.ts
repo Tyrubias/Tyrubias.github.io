@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import reactRefresh from '@vitejs/plugin-react-refresh'
-import legacy from '@vitejs/plugin-legacy'
+import { defineConfig } from 'vite';
+import reactRefresh from '@vitejs/plugin-react-refresh';
+import legacy from '@vitejs/plugin-legacy';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,10 +8,10 @@ export default defineConfig({
     reactRefresh(),
     legacy({
       targets: ['ie >= 11'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime']
-    })
+      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
+    }),
   ],
   build: {
-    outDir: 'docs'
-  }
-})
+    outDir: 'docs',
+  },
+});

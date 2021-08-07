@@ -9,7 +9,7 @@ SOURCE := $(shell find ./src -type f -name "*.tsx")
 build: $(BUILD_DIR)
 
 $(BUILD_DIR): $(DEPS) $(SOURCE)
-	$(LOCAL_BIN)/vite build
+	npm run build
 	touch $(BUILD_DIR)/.nojekyll
 	echo $(DOMAIN)  >> $(BUILD_DIR)/CNAME
 

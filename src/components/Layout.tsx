@@ -1,12 +1,12 @@
-import React from 'react'
-import Sidebar from './Sidebar'
+import React from 'react';
+import Sidebar from './Sidebar';
 
-function Layout ({
+function Layout({
   left,
-  center
+  center,
 }: {
-  left: JSX.Element
-  center: JSX.Element
+  left: JSX.Element;
+  center: JSX.Element;
 }): JSX.Element {
   return (
     <div className='md:grid grid-cols-page gap-x-8 grid-rows-none items-center justify-between h-screen'>
@@ -17,12 +17,12 @@ function Layout ({
           links={[
             { path: 'experience', name: 'Experience' },
             { path: 'projects', name: 'Projects' },
-            { path: 'education', name: 'Education' }
+            { path: 'education', name: 'Education' },
           ]}
         />
       )}
     </div>
-  )
+  );
 }
 
-export default Layout
+export default Layout;

@@ -1,22 +1,22 @@
-import React from 'react'
-import { Header, Headshot, Layout, Paragraph } from './components'
+import React from 'react';
+import { Header, Headshot, Layout, Paragraph } from './components';
 
-function AboutMe (): JSX.Element {
-  const victorPic = <Headshot imgName='profile' altText='My headshot' />
+function AboutMe(): JSX.Element {
+  const victorPic = <Headshot imgName='profile' altText='My headshot' />;
   const aboutMe = (
     <>
-      <Header>Hi, I'm Victor Song</Header>
+      <Header>Hi, I&apos;m Victor Song</Header>
       <Paragraph>
-        I'm a rising senior at Rice University looking for a full time position
-        as a full-stack developer or data scientist. I enjoy working in
+        I&apos;m a rising senior at Rice University looking for a full time
+        position as a full-stack developer or data scientist. I enjoy working in
         fast-paced team environments with a continuous learning mindset and
         rigorous team feedback. I aim to use interdisciplinary thinking to
         create innovative tools which benefit the social good and solve
         outstanding problems.
       </Paragraph>
       <Paragraph>
-        As of summer 2021, I'm working as a software engineer intern in Capital
-        One's{' '}
+        As of summer 2021, I&apos;m working as a software engineer intern in
+        Capital One&apos;s{' '}
         <a
           className='underline'
           href='https://campus.capitalone.com/technology-program?id=internship'
@@ -41,9 +41,9 @@ function AboutMe (): JSX.Element {
         Type 2 diabetes.
       </Paragraph>
     </>
-  )
+  );
 
-  return <Layout left={victorPic} center={aboutMe} />
+  return <Layout left={victorPic} center={aboutMe} />;
 }
 
-export default AboutMe
+export default AboutMe;

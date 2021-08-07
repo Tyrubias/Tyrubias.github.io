@@ -1,14 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-function Headshot ({
+function Headshot({
   imgName,
-  altText
+  altText,
 }: {
-  imgName: string
-  altText: string
+  imgName: string;
+  altText: string;
 }): JSX.Element {
-  const jpgImgUrl = new URL(`../assets/${imgName}.jpg`, import.meta.url).href
-  const webpImgUrl = new URL(`../assets/${imgName}.webp`, import.meta.url).href
+  const jpgImgUrl = new URL(`../assets/${imgName}.jpg`, import.meta.url).href;
+  const webpImgUrl = new URL(`../assets/${imgName}.webp`, import.meta.url).href;
 
   return (
     <picture>
@@ -16,7 +16,7 @@ function Headshot ({
       <source srcSet={jpgImgUrl} type='image/jpeg' />
       <img className='rounded-full md:ml-2' src={jpgImgUrl} alt={altText} />
     </picture>
-  )
+  );
 }
 
-export default Headshot
+export default Headshot;
