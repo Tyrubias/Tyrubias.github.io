@@ -4,6 +4,6 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   extends: ['airbnb-typescript', 'prettier'],
   parserOptions: {
-    project: './tsconfig.json',
+    project: './tsconfig.eslint.json',
   },
 };

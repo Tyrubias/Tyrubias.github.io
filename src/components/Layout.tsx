@@ -2,25 +2,26 @@ import React from 'react';
 import Sidebar from './Sidebar';
 
 function Layout({
-  left,
+  right,
   center,
 }: {
-  left: JSX.Element;
+  right: JSX.Element;
   center: JSX.Element;
 }): JSX.Element {
   return (
     <div className='md:grid grid-cols-page gap-x-8 grid-rows-none items-center justify-between h-screen'>
-      {left}
-      <div className='px-12 md:p-1'>{center}</div>
       {window.innerWidth > 768 && (
         <Sidebar
           links={[
-            { path: 'experience', name: 'Experience' },
-            { path: 'projects', name: 'Projects' },
-            { path: 'education', name: 'Education' },
+            { path: '/', name: 'Home' },
+            { path: '/experience', name: 'Experience' },
+            { path: '/projects', name: 'Projects' },
+            { path: '/education', name: 'Education' },
           ]}
         />
       )}
+      {center}
+      {right}
     </div>
   );
 }
